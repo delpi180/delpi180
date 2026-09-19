@@ -36,9 +36,6 @@ Construyo sistemas que resuelven problemas reales de negocio, desde el sensor ha
 
 ---
 
-
----
-
 ## 🚀 Proyectos propios destacados
 
 ### [tesis-veterinaria](https://github.com/delpi180/tesis-veterinaria)
