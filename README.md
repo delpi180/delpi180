@@ -9,28 +9,17 @@ Construyo sistemas que resuelven problemas reales de negocio, desde el sensor ha
 
 ## 🛠️ Stack
 
-<table>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=ts,js,react,tailwind,html,css,vite" alt="Frontend" /></td>
-  </tr>
-  <tr>
-    <td><b>Backend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=python,fastapi,bun,kotlin" alt="Backend" /></td>
-  </tr>
-  <tr>
-    <td><b>Databases</b></td>
-    <td><img src="https://skillicons.dev/icons?i=postgres,redis" alt="Databases" /></td>
-  </tr>
-  <tr>
-    <td><b>IoT &amp; Embedded</b></td>
-    <td><img src="https://skillicons.dev/icons?i=cpp,arduino" alt="IoT y Embedded" /></td>
-  </tr>
-  <tr>
-    <td><b>DevOps &amp; Tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=docker,git,github" alt="DevOps y herramientas" /></td>
-  </tr>
-</table>
+<p>
+  <b>Frontend</b> &nbsp;<img src="https://skillicons.dev/icons?i=ts,js,react,tailwind,html,css,vite" alt="Frontend" />
+  <br />
+  <b>Backend</b> &nbsp;<img src="https://skillicons.dev/icons?i=python,fastapi,bun,kotlin" alt="Backend" />
+  <br />
+  <b>Databases</b> &nbsp;<img src="https://skillicons.dev/icons?i=postgres,redis" alt="Databases" />
+  <br />
+  <b>IoT &amp; Embedded</b> &nbsp;<img src="https://skillicons.dev/icons?i=cpp,arduino" alt="IoT y Embedded" />
+  <br />
+  <b>DevOps &amp; Tools</b> &nbsp;<img src="https://skillicons.dev/icons?i=docker,git,github" alt="DevOps y herramientas" />
+</p>
 
 <sub>También: ESP32-S3 · MQTT (Mosquitto) · Modbus RTU · LVGL · Elysia · SQLAlchemy · Alembic · JWT · Pytest · OpenAI API · Deepgram · Web Speech API · Claude Code</sub>
 
