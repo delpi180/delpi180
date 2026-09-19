@@ -23,18 +23,6 @@ Construyo sistemas que resuelven problemas reales de negocio, desde el sensor ha
 
 ---
 
-## 💼 Experiencia
-
-### CorAll D&R · Desarrollo de software · [coralldar.com](https://coralldar.com)
-Desarrollo soluciones de software e IoT para empresas. Lo más destacado:
-
-- **Sistema IoT de monitoreo en tiempo real (end-to-end)**: diseñé y construí casi todo el sistema, del hardware a la web, con telemetría de sensores de nivel.
-  - **Firmware**: ESP32-S3 (C++/Arduino) que lee un sensor industrial por RS485/Modbus RTU, aplica calibración, ofrece una interfaz táctil con LVGL, guarda registros locales y publica por MQTT.
-  - **Backend**: Bun + Elysia con ingesta MQTT en tiempo real, PostgreSQL con lógica de negocio en funciones SQL (PL/pgSQL), Redis para RBAC y caché, todo dockerizado.
-  - **Frontend**: SPA en React 19, Vite y Ant Design con paneles de resumen, historial y diagnóstico de equipos.
-- **Plataforma interna de la empresa** (TypeScript + PostgreSQL): contribuciones dentro de un equipo de desarrollo.
-
-> 🔒 El código es privado (propiedad de la empresa). Con gusto explico la arquitectura en una entrevista.
 
 ---
 
