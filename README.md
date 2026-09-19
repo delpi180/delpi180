@@ -3,26 +3,42 @@
 **Desarrollador Full-Stack · Automatización e IA aplicada**
 *Full-Stack Developer · Automation & Applied AI*
 
-Construyo sistemas web que resuelven problemas reales de negocio: gestión clínica, control de ventas e inventario y automatización de ventas por WhatsApp. Me enfoco en código mantenible, buen modelado de datos y productos que se puedan usar desde el primer día.
+Construyo sistemas que resuelven problemas reales de negocio, desde el sensor hasta la pantalla: IoT y telemetría, gestión clínica, control de ventas e inventario y automatización de ventas por WhatsApp. Me enfoco en código mantenible, buen modelado de datos y productos que se puedan usar desde el primer día.
 
 ---
 
 ## 🛠️ Stack
 
 **Frontend** &nbsp; React · TypeScript · Vite · Tailwind CSS · Recharts
-**Backend** &nbsp;&nbsp; Python · FastAPI · SQLAlchemy · Alembic · JWT · Pytest
-**Datos** &nbsp;&nbsp;&nbsp;&nbsp; PostgreSQL
+**Backend** &nbsp;&nbsp; Python · FastAPI · Bun · Elysia · SQLAlchemy · Alembic · JWT · Pytest
+**Datos** &nbsp;&nbsp;&nbsp;&nbsp; PostgreSQL · Redis
+**IoT** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ESP32 · C++ / Arduino · MQTT (Mosquitto) · Modbus RTU · LVGL
 **IA / Voz** &nbsp;&nbsp; OpenAI API · Deepgram (transcripción) · Web Speech API
 **Móvil** &nbsp;&nbsp;&nbsp; Kotlin (Android)
-**Herramientas** Git · GitHub · Claude Code
+**Herramientas** Git · GitHub · Docker · Claude Code
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,python,fastapi,postgres,kotlin,git,github" alt="Stack" />
+  <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,python,fastapi,bun,postgres,redis,cpp,arduino,docker,kotlin,git,github" alt="Stack" />
 </p>
 
 ---
 
-## 🚀 Proyectos destacados
+## 💼 Experiencia
+
+### CorAll D&R · Desarrollo de software · [coralldar.com](https://coralldar.com)
+Desarrollo soluciones de software e IoT para empresas. Lo más destacado:
+
+- **Sistema IoT de monitoreo en tiempo real (end-to-end)**: diseñé y construí casi todo el sistema, del hardware a la web, con telemetría de sensores de nivel.
+  - **Firmware**: ESP32-S3 (C++/Arduino) que lee un sensor industrial por RS485/Modbus RTU, aplica calibración, ofrece una interfaz táctil con LVGL, guarda registros locales y publica por MQTT.
+  - **Backend**: Bun + Elysia con ingesta MQTT en tiempo real, PostgreSQL con lógica de negocio en funciones SQL (PL/pgSQL), Redis para RBAC y caché, todo dockerizado.
+  - **Frontend**: SPA en React 19, Vite y Ant Design con paneles de resumen, historial y diagnóstico de equipos.
+- **Plataforma interna de la empresa** (TypeScript + PostgreSQL): contribuciones dentro de un equipo de desarrollo.
+
+> 🔒 El código es privado (propiedad de la empresa). Con gusto explico la arquitectura en una entrevista.
+
+---
+
+## 🚀 Proyectos propios destacados
 
 ### [tesis-veterinaria](https://github.com/delpi180/tesis-veterinaria)
 Sistema web de gestión clínica veterinaria con **asistente de IA**: transcribe la consulta por voz (Deepgram) y estructura automáticamente la historia clínica en formato SOAP (OpenAI). Incluye citas, inventario, ventas, dashboard de KPIs y roles de usuario.
@@ -57,11 +73,20 @@ Trabajar en un equipo de producto donde pueda aportar en frontend, backend e int
 
 **Full-Stack Developer · Automation & Applied AI**
 
-I build web systems that solve real business problems: clinical management, sales and inventory control, and WhatsApp sales automation. I focus on maintainable code, solid data modeling and products people can use from day one.
+I build systems that solve real business problems, from sensor to screen: IoT and telemetry, clinical management, sales and inventory control, and WhatsApp sales automation. I focus on maintainable code, solid data modeling and products people can use from day one.
 
-**Stack:** React · TypeScript · Vite · Tailwind CSS · Python · FastAPI · SQLAlchemy · PostgreSQL · OpenAI API · Deepgram · Kotlin · Git
+**Stack:** React · TypeScript · Vite · Tailwind CSS · Python · FastAPI · Bun · Elysia · PostgreSQL · Redis · ESP32 · C++ · MQTT · Modbus · Docker · OpenAI API · Deepgram · Kotlin · Git
 
-**Featured projects**
+**Experience: CorAll D&R** ([coralldar.com](https://coralldar.com)), software development
+
+- **Real-time IoT monitoring system (end-to-end)**: designed and built nearly all of it, hardware to web, with level-sensor telemetry.
+  - *Firmware:* ESP32-S3 (C++/Arduino) reading an industrial sensor over RS485/Modbus RTU, applying calibration, a LVGL touch UI, local logging and MQTT publishing.
+  - *Backend:* Bun + Elysia with real-time MQTT ingestion, PostgreSQL with business logic in SQL functions (PL/pgSQL), Redis for RBAC and caching, fully Dockerized.
+  - *Frontend:* React 19 + Vite + Ant Design SPA with overview, history and device diagnostics dashboards.
+- **Company internal platform** (TypeScript + PostgreSQL): contributions within a development team.
+- 🔒 The code is private (company-owned); happy to walk through the architecture in an interview.
+
+**Personal projects**
 
 - **[tesis-veterinaria](https://github.com/delpi180/tesis-veterinaria)**: veterinary clinic management web app with an AI assistant that transcribes consultations by voice (Deepgram) and automatically structures SOAP clinical records (OpenAI). Includes appointments, inventory, sales, a KPI dashboard and role-based access. *React 19, FastAPI, PostgreSQL, JWT, Pytest.*
 - **[medasist](https://github.com/delpi180/medasist)**: nursing assistant demo with a live bed board, double-check drug-allergy safeguard, hands-free voice notes, infusion calculator and auto-generated shift handoff. *React 19, TypeScript, Tailwind.*
