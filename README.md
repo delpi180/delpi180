@@ -1,6 +1,6 @@
 # Hola, soy Jonatan Mendoza 👋
 
-**Desarrollador Full-Stack · Automatización e IA aplicada**
+**Ingeniero de sistemas e inteligencia artificial · CloudOps Engineer · Desarrollador Full-Stack · Automatización e IA aplicada**
 *Full-Stack Developer · Automation & Applied AI*
 
 
