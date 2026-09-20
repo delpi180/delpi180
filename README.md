@@ -3,7 +3,6 @@
 **Desarrollador Full-Stack · Automatización e IA aplicada**
 *Full-Stack Developer · Automation & Applied AI*
 
-Construyo sistemas que resuelven problemas reales de negocio, desde el sensor hasta la pantalla: IoT y telemetría, gestión clínica, control de ventas e inventario y automatización de ventas por WhatsApp. Me enfoco en código mantenible, buen modelado de datos y productos que se puedan usar desde el primer día.
 
 ---
 
